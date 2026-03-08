@@ -1,0 +1,57 @@
+.order-main-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.billing-address-container, .order-summary-container {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.billing-address-container {
+    width: 50%;
+}
+.order-summary-container {
+    width: 35%;
+}
+.container-title {
+    margin-bottom: 20px;
+}
+.form-input, .form-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.continue-payment-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.continue-payment-button:hover {
+    background-color: #45a049;
+}
+.summary-item-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.summary-total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.payment-option {
+    margin-top: 20px;
+}
+.card-details {
+    display: none;
+    margin-top: 10px;
+}

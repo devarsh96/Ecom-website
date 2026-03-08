@@ -1,0 +1,172 @@
+* {
+box-sizing: border-box;
+}
+
+.home-body {
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #4f46e5;
+color: #fff;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+
+footer {
+background-color: #4f46e5;
+color: white;
+text-align: center;
+padding: 5px;
+font-size: 12px;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+home-main {
+padding: 20px;
+}
+    
+@media (max-width: 600px) {
+header {
+padding: 5px;
+}
+
+.header_class {
+display: block;
+margin: 5px 0;
+}
+
+home-main {
+padding: 10px;
+}
+}
+
+.header-top {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: 50px;
+height: 50px;
+margin-right: 20px;
+}
+
+.parent-footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon{
+width: 20px;
+height: 20px;
+margin: 5px 15px;
+}
+
+.footer-icon-menu{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-icons {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.header-icons li {
+margin-right: 20px;
+}
+
+.login-icon, .cart-icon {
+color: #fff;
+text-decoration: none;
+}
+
+.cart-icon {
+position: relative;
+}
+
+.cart-count {
+position: absolute;
+top: -15px;
+right: -15px;
+background-color: #8ee7ff;
+color: #333;
+padding: 5px;
+border-radius: 50%;
+font-size: 12px;
+}
+
+nav {
+margin-top: 10px;
+}
+
+.header_section {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+.header_section li {
+margin-right: 20px;
+}
+
+.header_section a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.footer-menu li {
+margin-right: 20px;
+}
+
+.footer-menu a {
+color: #fff;
+text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .header_section {
+        flex-direction: column;
+    }
+    .header_section li {
+        margin-bottom: 10px;
+    }
+    .header-icons {
+        flex-direction: column;
+    }
+    .header-icons li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-menu {
+        flex-direction: column;
+    }
+    .footer-menu li {
+        margin-bottom: 10px;
+    }
+    .parent-footer-menu {
+        flex-direction: column;
+    }
+}

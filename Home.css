@@ -1,0 +1,82 @@
+.discount-offers{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.first_discount{
+    padding: 1px;
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
+
+.second_discount{
+    padding: 1px;
+    width: 100%;
+    object-fit: fill;
+    height: 100%;
+}
+
+.single-dis {
+    height: 600px;
+    width: 100%;
+}
+
+.all_product_grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bicycle_product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bicycle_product img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.captionTag{
+    display: block;
+}
+
+.product_img_title{
+    padding: 4px;
+}
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+    .all_product_grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Mobile layout */
+@media (max-width: 1023px) {
+    .all_product_grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.addToCart {
+    background-color: #1dd347;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+}
+
+.addToCart:hover {
+    background-color: #218838;
+}
